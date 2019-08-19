@@ -1,5 +1,6 @@
 # Neural Art
 Deep Learning for "Just as" painting styles
+
 Inspired by Coursera - Deep Learning & Art : Neural Style Transfer
 
 This tutorial can help you to use Neural Style transfer as described in <a href="https://arxiv.org/pdf/1508.06576v2.pdf">A Neural Algorithm of Artistic Style</a> by Leon A. Gatys, Alexander S. Ecker & Matthias Bethge.
@@ -15,7 +16,7 @@ There are two images to send in the input of the neural network :
 
 In the output we get the generated image merges the content image (1) with the style of (2).
 
-The two images must have the same shapes but they could be modify, as other parameters, in **nst_utils.py** file :
+The two images must have the same shape but they could be modify, as other parameters, in **nst_utils.py** file :
 ```
 class CONFIG:
     IMAGE_WIDTH = 400 # Width of the two input images.
