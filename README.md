@@ -21,7 +21,7 @@ There are two images to send in the input of the neural network :
 ![Style image](images/Style.jpg?raw=true "Style image")
 > The Bridges of Amsterdam - [Leonid Afremov](https://afremov.com/)
 
-In the output we get the generated image merges the content image (1) with the style of (2) :
+In the output we get the generated image merging the content image (1) with the style of (2) :
 
 ![Result image](output/Result.png?raw=true "Result image")
 
