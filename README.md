@@ -13,11 +13,19 @@ We'll implement the neural style transfer algorithm by using the Tensroflow libr
 ## Parameters
 There are two images to send in the input of the neural network :
 - the content image (1)
+
+![Content image](images/Content.jpg?raw=true "Content image")
+
 - the style image (2)
 
-In the output we get the generated image merges the content image (1) with the style of (2).
+![Style image](images/Style.jpg?raw=true "Style image")
+> The Bridges of Amsterdam - [Leonid Afremov](https://afremov.com/)
 
-The two images must have the same shape but they could be modify, as other parameters, in the **nst_utils.py** file :
+In the output we get the generated image merges the content image (1) with the style of (2) :
+
+![Result image](output/Result.png?raw=true "Result image")
+
+The two images must have the same shape but they could be modify, as other parameters, in the [nst_utils.py](nst_utils.py) file :
 ```
 class CONFIG:
     IMAGE_WIDTH = 774 # You can modify the width of the two input images
@@ -39,7 +47,7 @@ This technique is called the **transfer learning**. This model was trained on Im
 Put the file in a new folder : **pretrained-model**.
 
 ## Dependencies
-You'll need the following packages to run successfully the **main.py** :
+You'll need the following packages to run successfully the [main.py](main.py) :
 - [TensorFlow](https://www.tensorflow.org/install)
 - [NumPy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
 - [SciPy](https://github.com/scipy/scipy/blob/master/INSTALL.rst.txt)
