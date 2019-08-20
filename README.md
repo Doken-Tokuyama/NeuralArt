@@ -44,3 +44,6 @@ You'll need the following packages to run successfully the **main.py** :
 - [NumPy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
 - [SciPy](https://github.com/scipy/scipy/blob/master/INSTALL.rst.txt)
 - [Pillow](https://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
+
+## License
+GNU General Public License v3.0
