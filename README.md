@@ -33,8 +33,14 @@ class CONFIG:
 
 ## VGG 19-layer
 Note that in order to use this algorithm, you must download the pretrained model : [VGG 19-layer](https://www.kaggle.com/teksab/imagenetvggverydeep19mat#imagenet-vgg-verydeep-19.mat).
+
 This technique is called the **transfer learning**. This model was trained on ImageNet and allow us to extract the feature maps to describe the content of our images.
 
-I put the file in a folder **pretrained-model**.
+Put the file in a new folder : **pretrained-model**.
 
-## Denpedencies
+## Dependencies
+You'll need the following packages to run successfully the **main.py** :
+- [TensorFlow](https://www.tensorflow.org/install)
+- [NumPy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
+- [SciPy](https://github.com/scipy/scipy/blob/master/INSTALL.rst.txt)
+- [Pillow](https://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
