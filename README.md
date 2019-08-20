@@ -25,7 +25,7 @@ In the output we get the generated image merges the content image (1) with the s
 
 ![Result image](output/Result.png?raw=true "Result image")
 
-The two images must have the same shape but they could be modify, as other parameters, in the [nst_utils.py](nst_utils.py) file :
+The two images must have the same shape but this one could be modify, as other parameters, in the [nst_utils.py](nst_utils.py) file :
 ```
 class CONFIG:
     IMAGE_WIDTH = 774 # You can modify the width of the two input images
@@ -47,7 +47,7 @@ This technique is called the **transfer learning**. This model was trained on Im
 Put the file in a new folder : **pretrained-model**.
 
 ## Dependencies
-You'll need the following packages to run successfully the [main.py](main.py) :
+You'll need the following packages to run successfully the [main.py](main.py) file :
 - [TensorFlow](https://www.tensorflow.org/install)
 - [NumPy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
 - [SciPy](https://github.com/scipy/scipy/blob/master/INSTALL.rst.txt)
